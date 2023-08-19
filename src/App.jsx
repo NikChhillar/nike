@@ -11,7 +11,7 @@ import SuperQuality from "./sections/SuperQuality";
 const App = () => (
   <main className="relative">
     <Navbar />
-    <section className="xl:padding-1 wide:padding-r padding-b">
+    <section className="xl:padding-l wide:padding-r padding-b">
       <HeroSection />
     </section>
     <section className="padding">

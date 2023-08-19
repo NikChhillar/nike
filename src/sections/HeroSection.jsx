@@ -51,7 +51,7 @@ const HeroSection = () => {
           height={500}
           className="object-contain relative z-10"
         />
-        <div className="flex sm:gap-6 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
+        <div className="flex gap-2 sm:gap-6 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
           {shoes.map((item, idx) => (
             <div key={idx}>
               <ShoeCard
